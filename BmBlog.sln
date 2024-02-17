@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BmBlog.Core.Api", "BmBlog.Core.Api\BmBlog.Core.Api.csproj", "{53D2A809-D85E-4E2A-B3EC-ED678688FE69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BmBlog.Core.Api", "BmBlog.Core.Api\BmBlog.Core.Api.csproj", "{53D2A809-D85E-4E2A-B3EC-ED678688FE69}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{E9E2A50D-E5A9-48FC-BF10-0FF2B9D61090}"
 EndProject
@@ -11,15 +11,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{3296D6
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Servies", "Servies", "{BE86A9F6-F84E-4F96-8872-8F4ABFA4ABAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BmBlog.Core.Services", "BmBlog.Core.Services\BmBlog.Core.Services.csproj", "{87A54FFE-1CC0-4276-B04A-E54ACF97A658}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BmBlog.Core.Services", "BmBlog.Core.Services\BmBlog.Core.Services.csproj", "{87A54FFE-1CC0-4276-B04A-E54ACF97A658}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BmBlog.Core.ServicesContract", "BmBlog.Core.ServicesContract\BmBlog.Core.ServicesContract.csproj", "{7BB305A0-C0EE-4895-8AB9-8C279AA7BC35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BmBlog.Core.ServicesContract", "BmBlog.Core.ServicesContract\BmBlog.Core.ServicesContract.csproj", "{7BB305A0-C0EE-4895-8AB9-8C279AA7BC35}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{10E829D9-FDB5-4ED6-8666-C576DE0AD3DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BmBlog.Core.DataAccess", "BmBlog.Core.DataAccess\BmBlog.Core.DataAccess.csproj", "{8B8A9582-0035-46CB-B291-7371390D6A2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BmBlog.Core.DataAccess", "BmBlog.Core.DataAccess\BmBlog.Core.DataAccess.csproj", "{8B8A9582-0035-46CB-B291-7371390D6A2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BmBlog.Core.DataAccessContract", "BmBlog.Core.DataAccessContract\BmBlog.Core.DataAccessContract.csproj", "{6CE5B477-841B-440F-A063-C9302A90E01A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BmBlog.Core.DataAccessContract", "BmBlog.Core.DataAccessContract\BmBlog.Core.DataAccessContract.csproj", "{6CE5B477-841B-440F-A063-C9302A90E01A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{E39935CD-9B71-43BE-9264-65C340215D5B}"
 EndProject
@@ -27,11 +27,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{F8017984-287
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{58C8F4E4-DFAE-4BBD-8703-CDA5C8389157}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BmBlog.Core.Configs", "BmBlog.Core.Configs\BmBlog.Core.Configs.csproj", "{FAAABAC3-E002-45F2-86C9-44D2FA32CAA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BmBlog.Core.Configs", "BmBlog.Core.Configs\BmBlog.Core.Configs.csproj", "{FAAABAC3-E002-45F2-86C9-44D2FA32CAA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BmBlog.Shared.BusinessModels", "BmBlog.Shared.BusinessModels\BmBlog.Shared.BusinessModels.csproj", "{4656BAC8-EAE9-4E45-837E-C4C383018A17}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BmBlog.Shared.BusinessModels", "BmBlog.Shared.BusinessModels\BmBlog.Shared.BusinessModels.csproj", "{4656BAC8-EAE9-4E45-837E-C4C383018A17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BmBlog.Core.DomainModels", "BmBlog.Core.DomainModels\BmBlog.Core.DomainModels.csproj", "{27753CFD-C4EC-47ED-992B-4257CBF554C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BmBlog.Core.DomainModels", "BmBlog.Core.DomainModels\BmBlog.Core.DomainModels.csproj", "{27753CFD-C4EC-47ED-992B-4257CBF554C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{1EE9FE7A-7ECD-49F4-971E-6F901AA62514}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{77EBF334-31F6-491C-855C-A94553F2A15E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BmBlog.Shared.Services", "BmBlog.Shared.Services\BmBlog.Shared.Services.csproj", "{9AA27087-6F91-4C4E-A77A-B3441973386B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +77,10 @@ Global
 		{27753CFD-C4EC-47ED-992B-4257CBF554C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27753CFD-C4EC-47ED-992B-4257CBF554C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27753CFD-C4EC-47ED-992B-4257CBF554C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AA27087-6F91-4C4E-A77A-B3441973386B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AA27087-6F91-4C4E-A77A-B3441973386B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AA27087-6F91-4C4E-A77A-B3441973386B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AA27087-6F91-4C4E-A77A-B3441973386B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -86,8 +96,11 @@ Global
 		{E39935CD-9B71-43BE-9264-65C340215D5B} = {E9E2A50D-E5A9-48FC-BF10-0FF2B9D61090}
 		{58C8F4E4-DFAE-4BBD-8703-CDA5C8389157} = {E9E2A50D-E5A9-48FC-BF10-0FF2B9D61090}
 		{FAAABAC3-E002-45F2-86C9-44D2FA32CAA3} = {58C8F4E4-DFAE-4BBD-8703-CDA5C8389157}
-		{4656BAC8-EAE9-4E45-837E-C4C383018A17} = {3296D664-158D-4720-A30E-C8A57172D6BC}
+		{4656BAC8-EAE9-4E45-837E-C4C383018A17} = {1EE9FE7A-7ECD-49F4-971E-6F901AA62514}
 		{27753CFD-C4EC-47ED-992B-4257CBF554C0} = {10E829D9-FDB5-4ED6-8666-C576DE0AD3DC}
+		{1EE9FE7A-7ECD-49F4-971E-6F901AA62514} = {3296D664-158D-4720-A30E-C8A57172D6BC}
+		{77EBF334-31F6-491C-855C-A94553F2A15E} = {3296D664-158D-4720-A30E-C8A57172D6BC}
+		{9AA27087-6F91-4C4E-A77A-B3441973386B} = {77EBF334-31F6-491C-855C-A94553F2A15E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F283E683-9DE7-4D42-A9E6-304B13B3F90E}
