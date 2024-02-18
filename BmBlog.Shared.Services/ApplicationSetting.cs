@@ -2,7 +2,7 @@
 
 public static class ApplicationSetting
 {
-    public static bool IsDebug
+    public static bool IsDebugMode
     {
         get
         {

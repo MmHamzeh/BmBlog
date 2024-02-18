@@ -12,8 +12,8 @@ public class ReadDbContext : DbContext
         optionsBuilder.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
 
         optionsBuilder.EnableThreadSafetyChecks(false);
-        optionsBuilder.EnableDetailedErrors(ApplicationSetting.IsDebug);
-        optionsBuilder.EnableSensitiveDataLogging(ApplicationSetting.IsDebug);
+        optionsBuilder.EnableDetailedErrors(ApplicationSetting.IsDebugMode);
+        optionsBuilder.EnableSensitiveDataLogging(ApplicationSetting.IsDebugMode);
 
         base.OnConfiguring(optionsBuilder);
     }
