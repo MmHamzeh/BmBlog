@@ -1,0 +1,16 @@
+﻿namespace BmBlog.Shared.Services;
+
+public static class ApplicationSetting
+{
+    public static bool IsDebug
+    {
+        get
+        {
+#if DEBUG
+            return true;
+#else   
+            return false;
+#endif
+        }
+    }
+}

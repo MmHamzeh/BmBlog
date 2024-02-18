@@ -11,4 +11,12 @@
     <Folder Include="ReadDbRepositories\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BmBlog.Shared.Services\BmBlog.Shared.Services.csproj" />
+  </ItemGroup>
+
 </Project>
