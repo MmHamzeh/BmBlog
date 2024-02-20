@@ -10,7 +10,7 @@ public class MainDbContext : DbContext
     public DbSet<Comment> Comments { get; set; }
     public DbSet<CommentRating> CommentRatings { get; set; }
     public DbSet<DefaultMetaTag> DefaultMetaTags { get; set; }
-    public DbSet<Gallery> Gallery { get; set; }
+    public DbSet<DocumentFile> Gallery { get; set; }
     public DbSet<PostHeader> Posts { get; set; }
     public DbSet<PostBody> PostBodies { get; set; }
     public DbSet<PostMetaTag> PostMetaTags { get; set; }
@@ -61,7 +61,7 @@ public class MainDbContext : DbContext
         modelBuilder.Entity<DefaultMetaTag>()
             .ToTable(nameof(DefaultMetaTags), "dbo");
 
-        modelBuilder.Entity<Gallery>()
+        modelBuilder.Entity<DocumentFile>()
             .ToTable(nameof(Gallery), "dbo");
 
         modelBuilder.Entity<PostHeader>()

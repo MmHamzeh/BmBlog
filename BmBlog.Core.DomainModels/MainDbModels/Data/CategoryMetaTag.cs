@@ -1,6 +1,6 @@
 ﻿namespace BmBlog.Core.DomainModels.MainDbModels.Data;
 
-public class PostMetaTag : IDbTable
+public class CategoryMetaTag : IDbTable
 {
     #region IDbTable
 
@@ -13,14 +13,11 @@ public class PostMetaTag : IDbTable
 
     #region Relations
 
-    public int PostHeaderId { get; set; }
-    public PostHeader PostHeader { get; set; }
+    public int CategoryId { get; set; }
+    public Category Category { get; set; }
 
     public int? DefaultMetaTagId { get; set; }
     public DefaultMetaTag DefaultMetaTag { get; set; }
 
     #endregion
-
-
-
 }
