@@ -16,6 +16,7 @@ public class PostHeader : IDbTable, IAuditable
     public bool IsPublished { get; set; }
     public float Rating { get; set; }
     public int RateCount { get; set; }
+    public int Seen { get; set; }
 
     #region Relations
 
@@ -28,7 +29,13 @@ public class PostHeader : IDbTable, IAuditable
     public int CategoryId { get; set; }
     public Category Category { get; set; }
 
+    public int PostTypeId { get; set; }
+    public PostType PostType { get; set; }
+
     public ICollection<PostMetaTag> PostMetaTags { get; set; }
+    public ICollection<PostRating> PostRatings { get; set; }
+    public ICollection<PostSeen> PostSeens { get; set; }
+    public ICollection<PostTag> PostTags { get; set; }
 
     #endregion
 

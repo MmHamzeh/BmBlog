@@ -9,11 +9,13 @@ public class Tag : IDbTable
 
     #endregion
 
-    //Properties
+    public string TagTitle { get; set; }
+    public string TagTitleEn { get; set; }
+    public string Slug { get; set; }
 
     #region Relations
 
-
+    public ICollection<PostTag> PostTags { get; set; }
 
     #endregion
 

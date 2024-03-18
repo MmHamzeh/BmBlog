@@ -9,15 +9,16 @@ public class PostRating : IDbTable
 
     #endregion
 
-    //Properties
+    public short Rate { get; set; }
 
     #region Relations
 
+    public int ProfileId { get; set; }
+    public Profile Profile { get; set; }
 
+    public int PostHeaderId { get; set; }
+    public PostHeader PostHeader { get; set; }
 
     #endregion
-
-   
-
 
 }

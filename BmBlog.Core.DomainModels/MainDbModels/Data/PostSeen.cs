@@ -9,11 +9,15 @@ public class PostSeen : IDbTable
 
     #endregion
 
-    //Properties
+    public short SeenCount { get; set; }
 
     #region Relations
 
+    public int ProfileId { get; set; }
+    public Profile Profile { get; set; }
 
+    public int PostHeaderId { get; set; }
+    public PostHeader PostHeader { get; set; }
 
     #endregion
 

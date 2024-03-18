@@ -9,11 +9,13 @@ public class PostType : IDbTable
 
     #endregion
 
-    //Properties
+    public string TypeTitle { get; set; }
+    public string TypeTitleEn { get; set; }
+    public string Slug { get; set; }
 
     #region Relations
 
-
+    public ICollection<PostHeader> PostHeaders { get; set; }
 
     #endregion
 

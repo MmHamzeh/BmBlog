@@ -9,11 +9,15 @@ public class PostTag : IDbTable
 
     #endregion
 
-    //Properties
+    public int Order { get; set; }
 
     #region Relations
 
+    public int PostHeaderId { get; set; }
+    public PostHeader PostHeader { get; set; }
 
+    public int TagId { get; set; }
+    public Tag Tag { get; set; }
 
     #endregion
 
